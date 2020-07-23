@@ -41,7 +41,7 @@ def preposition(sentence, prepositionlist, relprolist, verblist):
     return fancy_noun(sentence, prepositionlist, relprolist, verblist)
 
 def relpro(sentence, prepositionlist, relprolist, verblist):
-    sentence = sentence + " " + random.choice(relprolist)
+    sentence = sentence + random.choice(relprolist)
 
     relpro_choice = [0, 1]
     choice = random.choice(relpro_choice)
